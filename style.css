@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    text-align: center;
+}
+
+.container1{
+    position: fixed;
+    width:1345px ;
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background:-webkit-linear-gradient(#b95f5f,#8b5858);
+    padding-top: 5px;
+  
+}
+.head{
+   a{
+    text-decoration: none;
+    font-family: var(--head-font);
+    color:#f3f1ef;
+    font-size: 30px;
+    }
+}
+.head1{
+    display: flex; 
+    a{
+       text-decoration: none;
+        padding: .5rem;
+        font-family: var(--head-font);    
+       color:#f0ebe7;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+.head2{
+    a{
+    text-decoration:none;
+        padding-right:10px;
+        font-family: var(--head-font);
+        color:#ffffff;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    a:hover,
+    a:focus{
+        background: rgb(228, 103, 20);
+        color: white;
+    }
+    
+}
+ 
+    
+  .sign:hover,
+  .sign:focus{
+    transition: 500ms;
+    background:rgb(0, 241, 149);
+}
+.hero{
+    background-image: url(./CoffeeShop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10em;
+}
+
+.container{
+    
+    font-size: 2em ;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase ;
+    opacity: 60%;
+}
+
+.container span{
+    font-size: .75em;
+    display: block;
+    font-weight: 300 ;
+    margin-bottom: 2rem;
+    
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    padding: .5rem 1.75rem;
+}
+
+.button:hover,
+.button:focus{
+    transition: 500ms;
+    background: #fff;
+    color: black;
+}
+.reg{
+    font-size: 1.65rem;
+    display: inline-block;
+    text-decoration: none;
+    border:1px solid rgb(212, 200, 200);
+    color:rgb(255, 255, 255);
+    background: rgb(143, 45, 45);
+    border-radius: 30px;
+}
+.reg:hover,
+.reg:focus{
+    transition: 500ms;
+    background:rgb(182, 215, 245);
+    color:rgb(247, 13, 208);
+}
+.about{
+    margin: 2rem 0rem;
+}
+
+.who{
+    background-color: #00ff6c;
+    margin: 2rem 5rem;
+}
+
+.who h1{
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+    position: absolute;
+    width: 80%;
+    border: 2px solid #00ffff;
+}
+
+.who p{
+    position: relative;
+    padding: 3rem 1rem 1rem 1rem; 
+}
+
+.port-item img{
+    width: 80%;
+    height: 35vh;
+}
+
+.port-item{
+    width: 33%;
+    float: left;
+   
+}
+
+.projects{
+    margin: 1rem;
+}
+
+.projects h1{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.button-port{
+    justify-content:baseline;
+    padding: .2rem .5rem;
+    border-color: #00ff6c;
+    color: #00ff6c;
+    margin-bottom: 1.5rem  ;
+}
+
+.button-port:hover,
+.button-port:focus{
+    color: #fff;
+    background-color: #00ff6c;
+}
+
+
+.article{
+    padding: 0rem 1rem;
+    width: 30%;
+    float: left;
+    margin-left: .5rem;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer{
+    color: #fff;
+    background-color: #00ff6c;
+    padding: 2rem;
+}
+
+
+
+
+
+

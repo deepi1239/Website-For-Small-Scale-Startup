@@ -1,0 +1,50 @@
+h1{
+    margin-left: 520px;
+    color: brown;
+}
+.box{
+    background-image: url("./Log.jpg");
+    image:canvas;
+   background-size: cover;
+    height:400px;
+    width:700px;
+    border:3px groove black;
+    box-shadow: 12px 7px 50px 0px rgb(241, 79, 79);
+    margin-left: 330px;
+   
+} 
+span{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.i{
+    margin-top: 60px;
+    margin-left: 390px;
+}
+.i1{
+    height:30px;
+    width:200px;
+   margin-top: 20px;
+   margin-left:-5px ;
+    border-radius: 20px;
+}
+.i2{
+    height:30px;
+    width:200px;
+    margin-top: 20px;
+    margin-left:-5px ;
+    border-radius: 20px;
+}
+button{
+    height: 30px;
+    width:100px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+button:hover,
+button:focus{
+ background-color: rgb(18, 250, 18);
+ color: aliceblue;
+}
